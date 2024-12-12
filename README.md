@@ -23,14 +23,17 @@ O código simula cinco filósofos que alternam entre os estados de "pensando", "
 ## Compilação e Execução
 Para compilar e executar o código, siga os passos abaixo:
 
+1. Pode estar acessando o código no meu GDB online pelo link e estar executando por la https://onlinegdb.com/6z6Jx1CTw
+
+OU
+
 1. Salve o código em um arquivo chamado `jantar_dos_filosofos.c`.
 2. Abra um terminal e navegue até o diretório onde o arquivo está salvo.
 3. Compile o código com o seguinte comando:
 
    ```bash
    gcc -o jantar_dos_filosofos jantar_dos_filosofos.c -lpthread
-
- 4. Execute o programa:
+4. Execute o programa:
 
    ```bash
-./jantar_dos_filosofos
+   ./jantar_dos_filosofos
